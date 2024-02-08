@@ -1,0 +1,24 @@
+.nav__cityButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+
+    color: rgba(34, 34, 34, 0.8);
+    font-weight: 600;
+
+    border: 3px solid rgba(128, 128, 128, 0.4);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav__cityButton:hover {
+    border: 3px solid rgba(128, 128, 128, 0.7);
+    transition: ease-in-out 0.3s;
+}
+
+.cityButton__name {
+    text-align: center;
+    font-size: 38px;
+}
