@@ -8,9 +8,7 @@ const WeatherCard = ({ city, info, getWeatherIcon }) => {
                 <div className="card__name">
                     {city.city + ' - ' + city.country}
                 </div>
-                <div id="card__data__icon">
                     {getWeatherIcon(info.weather[0].main)}
-                </div>
             </div>
             <div className="card__data">
                 <div className="card__data__fields">

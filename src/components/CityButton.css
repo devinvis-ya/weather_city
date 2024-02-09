@@ -11,6 +11,19 @@
     border: 3px solid rgba(128, 128, 128, 0.4);
     border-radius: 15px;
     cursor: pointer;
+
+    /* iOS Safari */
+    -webkit-touch-callout: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Old versions of Firefox */
+    -moz-user-select: none;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    user-select: none;
 }
 
 .nav__cityButton:hover {
@@ -21,4 +34,16 @@
 .cityButton__name {
     text-align: center;
     font-size: 38px;
+}
+
+@media only screen and (max-width: 480px)  {
+
+    .nav__cityButton {
+        width: 100px;
+        padding: 5px;
+    }
+
+    .cityButton__name{
+        font-size: 18px;
+    }
 }
