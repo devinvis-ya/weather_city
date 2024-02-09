@@ -36,14 +36,25 @@
     font-size: 38px;
 }
 
-@media only screen and (max-width: 480px)  {
+@media only screen and (min-width: 769px) and ( max-width: 1200px)  {
+
+    .nav__cityButton {
+        width: 200px;
+    }
+
+    .cityButton__name {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
 
     .nav__cityButton {
         width: 100px;
         padding: 5px;
     }
 
-    .cityButton__name{
+    .cityButton__name {
         font-size: 18px;
     }
 }

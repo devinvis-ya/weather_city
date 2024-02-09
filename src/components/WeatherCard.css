@@ -38,8 +38,31 @@
     width: 70px;
     height: 70px;
 }
+@media only screen and (min-width: 769px) and ( max-width: 1200px)  {
 
-@media only screen and (max-width: 480px) {
+    .weather__card {
+        width: 450px;
+        margin-top: 150px;
+        padding: 20px;
+
+        font-size: 28px;
+    }
+
+    .card__data {
+        margin-top: 15px;
+    }
+
+    .card__data__fields div {
+        width: 350px;
+    }
+
+    #weatherIcon{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
 
     .weather__card {
         width: 380px;
