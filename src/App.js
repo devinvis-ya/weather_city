@@ -69,7 +69,7 @@ function App() {
 
   async function getWeatherInfo(city) {
     setCurrentCity(city);
-    const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${city.lat}&lon=${city.lon}&appid=${process.env.TOKEN_API}`);
+    const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${city.lat}&lon=${city.lon}&appid=${process.env.REACT_APP_TOKEN_API}`);
     setCurrentWeather(response.data)
   }
 
